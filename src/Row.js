@@ -17,6 +17,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
 
       return request;
     }
+
     fetchData();
   }, [fetchUrl]);
 
